@@ -104,6 +104,10 @@ grant all on database analytics to role PC_DBT_ROLE;
 
 grant all on schema raw.demo to role PC_DBT_ROLE;
 grant all on schema raw.show to role PC_DBT_ROLE;
+grant all on schema analytics.public to role PC_DBT_ROLE;
 
 grant all on all tables in database raw to role PC_DBT_ROLE;
 grant all on future tables in database raw to role PC_DBT_ROLE;
+
+grant all on all tables in database analytics to role PC_DBT_ROLE;
+grant all on future tables in database analytics to role PC_DBT_ROLE;
