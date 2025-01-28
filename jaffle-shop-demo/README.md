@@ -53,7 +53,7 @@ Ready to go? Grab some water and a nice snack, and let's dig in!
 
 ## 🏗️ Platform setup
 
-1. Go to your Snowflake environment and create a new worksheet. We need to create a new database in Snowflake for the Jaffle Shop project. We recommend using the name `raw` for consistency with the project. Copy the script in the setup folder to start creating the Database, setting the privileges and loading the data from S3 into the tables. If you're not sure how to do this, we recommend checking out the [Quickstart Guide for Snowflake in the dbt Docs](https://docs.getdbt.com/guides/snowflake?step=1).
+1. Go to your Snowflake environment and create a new worksheet. We need to create a new database in Snowflake for the Jaffle Shop project. We recommend using the name `raw` for consistency with the project. Copy the script from the setup folder to start creating the Database, setting the privileges and loading the data from S3 into the tables. If you're not sure how to do this, we recommend checking out the [Quickstart Guide for Snowflake in the dbt Docs](https://docs.getdbt.com/guides/snowflake?step=1).
 
 2. Set up a dbt Cloud account (if you don't have one already, if you do, just create a new project) and follow Step 4 in the [Quickstart Guide for Snowflake](https://docs.getdbt.com/guides/snowflake?step=4), to connect your platform to dbt Cloud. Make sure the user you configure for your connections has [adequate database permissions to run dbt](https://docs.getdbt.com/reference/database-permissions/about-database-permissions) in the `jaffle_shop` database.
 
