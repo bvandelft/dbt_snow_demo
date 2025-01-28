@@ -113,6 +113,8 @@ Commit your Project!
 
 ## 💾 Stage 7 - Deploy dbt
 
+Deploy your model via the Deployment environment
+
 Congratulations 🎉! You've just deployed your first dbt project!
 
 
